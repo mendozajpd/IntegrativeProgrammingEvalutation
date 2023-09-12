@@ -222,6 +222,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TransitionScreen: {fileID: 1617549710}
   WrongX: {fileID: 0}
+  NextScene: 
+  PreviousScene: 
 --- !u!4 &158202462
 Transform:
   m_ObjectHideFlags: 0
@@ -413,7 +415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: BEGIN EVALUATION
+  m_text: REDO EVALUATION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -548,9 +550,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'GROUP 2
+  m_text: 'BROUGHT TO YOU BY
 
-    COMMON SOFTWARE ARCHITECTURE EVALUATION'
+    GROUP 2 - COMMON SOFTWARE ARCHITECTURE'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1565,6 +1567,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2127183339}
     m_Modifications:
+    - target: {fileID: 6409447680351536187, guid: e546d85946d856e48872a15bc4002cdb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6409447680351536188, guid: e546d85946d856e48872a15bc4002cdb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
