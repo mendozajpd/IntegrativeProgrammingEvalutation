@@ -52,11 +52,6 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
-    IEnumerator loadAfterDelay(float delay, string sceneName)
-    {
-        yield return new WaitForSeconds(delay);
-    }
-
     public void QuitGame()
     {
         Application.Quit();
